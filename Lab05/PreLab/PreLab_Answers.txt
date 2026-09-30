@@ -1,0 +1,23 @@
+Exercise 1: Identify Synthesizability
+
+The code given to us is not synthesizable because n is not a constant and the number of 
+loop iterations is not fixed so the synthesizer cannot create a fixed hardware structure
+
+
+Exercise 2: Fix the Code
+
+This is not synthesizable because #10 is a simulation delay and in the actual FPGA 
+hardware, the clock comes from the external clock source thats present
+
+the fixed version of the code would be: 
+
+always @(posedge clk) begin
+    q <= d;
+end
+
+
+Exercise 3: What hardware does this code describe?
+
+This code describes a register or a D flip flop with an enable input
+when en = 1 q has the value of d on the rising edge of the clock and
+when en = 0 q keeps its previous value so its unchanged
