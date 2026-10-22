@@ -1,0 +1,11 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+PASS: Data Memory write/read correct
+PASS: Data Memory decoder selection correct
+PASS: LED write correct
+PASS: LED decoder selection correct
+PASS: Switch read correct
+PASS: Switch decoder selection correct
+PASS: Unused address returns zero
+PASS: No device selected for unused address
+$finish called at time : 71 ns : File "C:/Users/aa08811/Lab08_MemorySystem/Lab08_MemorySystem.srcs/sim_1/new/MemorySystem_tb.v" Line 238
