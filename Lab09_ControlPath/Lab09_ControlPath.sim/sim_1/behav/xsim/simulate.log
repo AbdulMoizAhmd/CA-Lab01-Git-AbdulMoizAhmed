@@ -1,0 +1,18 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+PASS: ADD
+PASS: SUB
+PASS: SLL
+PASS: SRL
+PASS: AND
+PASS: OR
+PASS: XOR
+PASS: ADDI
+PASS: LW
+PASS: LH
+PASS: LB
+PASS: SW
+PASS: SH
+PASS: SB
+PASS: BEQ
+$finish called at time : 180 ns : File "C:/Users/aa08811/Lab09_ControlPath/Lab09_ControlPath.srcs/sim_1/new/ControlPath_tb.v" Line 362
